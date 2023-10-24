@@ -1,0 +1,15 @@
+{
+    "name": "FAVE Organization Python Workflow",
+    "description": "Starter workflow for python projects.",
+    "iconName": "octicon codescan-checkmark",
+    "categories": [
+        "testing",
+	"continuous-integration"
+    ],
+    "filePatterns": [
+        "pyproject.toml$",
+        "setup.py$",
+        "*.py$"
+    ]
+}
+
