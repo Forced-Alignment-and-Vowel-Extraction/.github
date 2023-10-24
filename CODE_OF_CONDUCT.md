@@ -51,11 +51,13 @@ decisions when appropriate.
 
 ## Scope
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
+This Code of Conduct applies within all community spaces such as discussions,
+bug reports (issues), commit messages, pull requests, and other spaces where
+community members interact. This Code of Conduct also applies when an 
+individual is officially representing the community in public spaces.
+Examples of representing our community include official responses through e-mail,
 posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+representative at an online or offline event such as a conference talk.
 
 ## Enforcement
 
