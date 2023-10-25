@@ -1,0 +1,48 @@
+name: Bug Report
+description: File a bug report
+title: "[Feature Request]: "
+labels: ["enhancement", "triage"]
+assignees:
+  - chrisbrickhouse
+  - JoFrhwld
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your ideas!
+  - type: textarea
+    id: idea-description
+    attributes:
+      label: What feature would you like added?
+      description: Please describe how the new feature would work.
+      placeholder: Tell us your idea!
+      value: "When given ... the program should do ...."
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: What would the use case be for this feature?
+      description: Please describe what kind of work this feature would make easier.
+      placeholder: Why would this be useful?
+      value: "When working on ... this feature would make ... easier."
+  - type: dropdown
+    id: volunteer
+    attributes:
+      label: Would you like to help add this feature?
+      description: We can help orient you to software development if you want to work on this!
+      options:
+        - Yes! I'd like mentorship on developing for FAVE.
+        - Yes, and I will submit a pull request soon.
+        - No thanks, I'm not interested in developing this feature myself.
+    validation:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Forced-Alignment-and-Vowel-Extraction/.github/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+
