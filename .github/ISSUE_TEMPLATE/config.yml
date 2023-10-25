@@ -1,4 +1,4 @@
-blank_issues_enabled: false
+blank_issues_enabled: true # Set to false if you want to force template use
 contact_links:
   - name: Code of Conduct concerns
     url: https://github.com/Forced-Alignment-and-Vowel-Extraction/.github/blob/main/CODE_OF_CONDUCT.md#enforcement
