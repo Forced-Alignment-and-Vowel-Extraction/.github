@@ -35,7 +35,7 @@ body:
         - Yes! I'd like mentorship on developing for FAVE.
         - Yes, and I will submit a pull request soon.
         - No thanks, I'm not interested in developing this feature myself.
-    validation:
+    validations:
       required: true
   - type: checkboxes
     id: terms
